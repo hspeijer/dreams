@@ -21,14 +21,18 @@ $c-blue2: rgb(158, 216, 206);
 $c-blue_header: #9fc3c3;
 $c-blue_text: #90aeae;
 
+$c-blue_green: #27ccc0;
+
 $c-green_light: #92d692;
 $c-green: #5baf65;
 $c-green2: rgb(129, 193, 126);
 $c-green3: #96CA90;
 
+$c-white: #fff;
 $c-gray_light: #d5d1c9;
+$c-menu-gray: #A0A0A0;
 $c-gray: #929292;
-$c-gray_dark: #818181;
+$c-gray_dark: #676767;
 
 $c-black: #000000;
 
@@ -88,6 +92,15 @@ $font-weight-bold: 700;
   user-select: none;
 }
 
+.menu_bar {
+  position: absolute;
+  height: 40px;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  background-color: black;
+}
+
 *, *:before, *:after {
   box-sizing: border-box;
 }
@@ -138,11 +151,18 @@ html {
     font-style: normal;
 
 }
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto'), local('Roboto-Regular'), url(http://fonts.gstatic.com/s/roboto/v15/sTdaA6j0Psb920Vjv-mrzH-_kf6ByYO6CLYdB4HQE-Y.woff2) format('woff2');
+}
 body {
   background: #fff;
-  font-family: 'Source Sans Pro', sans-serif;
-  font-size: 16px;
-  color: $c-black;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  color: $c-gray_dark;
+  letter-spacing: 1.5px;
   word-wrap: break-word;
   overflow-x: hidden;
 }
@@ -169,7 +189,7 @@ h2 {
 
 a {
   cursor: pointer;
-  color: inherit;
+  color: $c-blue_green;
   text-decoration: none;
   line-height: inherit;
 
@@ -230,20 +250,22 @@ address {
 
 
 .btn-success {
-  background-color: $c-pinky;
-  border: none;
+  border: 2px solid $c-gray_dark;
+  background-color: $c-white !important;
+  padding-bottom: 10px;
 
   &:hover {
-    background-color: $c-pinky-darker !important;
-    border-color: $c-pinky-darker;
+    background-color: $c-white !important;
+    border-color: $c-blue_green;
+    color: $c-blue_green ! important;
   }
   &:active {
-    background-color: $c-pinky-darkest !important;
-    border-color: $c-pinky-darker;
+    background-color: $c-white !important;
+    border-color: $c-blue_green;
   }
   &:focus {
-    background-color: $c-pinky-darkest !important;
-    border-color: $c-pinky-darker;
+    background-color: $c-white !important;
+    border-color: $c-blue_green;
   }
 }
 

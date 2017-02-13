@@ -7,7 +7,7 @@ en:
   html_direction: ltr
   reverse_direction: right
   lang_direction: left
-  browser_title_tag: Meta Dreams
+  browser_title_tag: Art Jump 2017
   main_sharing_description: Meta dreams is a place where we dream together and
     breathe life into our mad creations. We share resources to make dreams happen.
   top_headline_html: Meta<br>Dreams
@@ -16,7 +16,7 @@ en:
   top_headline_old_dreams: 2015 Dreams
   top_headline_faq: FAQ
   creations_menu: Dreams
-  register_creation_menu: Create A Dream
+  register_creation_menu: Submit Art
   login_menu: Log in
   register_menu: Register
   private_area: Private area >
@@ -27,7 +27,7 @@ en:
     the Middle east to Midburnerot, Midburn and is now part of Metaburn<br>Here are the humans who made
     the dreams platform possible (Refresh the page, Swipe to shuffle, Or use the arrow
     keys)
-  welcome_guest_title: Welcome to our Dreams
+  welcome_guest_title: Welcome to ArtJump 2017
   welcome_guest_text_html: Congratulations! You've stumbled upon something special!
     <b>Metaburn</b> is some awesome fucking shit. We dream together and breathe life
     into our mad and wondrous creations. Dreams need matter to come to life, and this
@@ -52,7 +52,7 @@ en:
   hide_minimum_funded: Hide minimum funded
   hide_not_open_for_granting: Hide not open for funding
   sort_by: Sort by
-  form_basics_headline: Dream registration
+  form_basics_headline: Art Jump Grant Proposal
   form_summary: Summary
   form_dream_name: Dream name
   form_dream_name_en_label: Dream name in English (required)
@@ -364,8 +364,8 @@ en:
   form_safetybag_other_comments_guidetext_html: Do you have anything else to say?
   form_safetybag_remember_sketch: This is also the place to upload any sketch you may have
   form_budgetplan_label: Budget overview
-  create_dream: Create Dream!
-  update_dream: Update Dream!
+  create_dream: Create Proposal!
+  update_dream: Update Proposal!
   edit_dream: Edit Dream
   manage_images: Manage Images
   give_grants: Give Grants

@@ -10,5 +10,6 @@ public/system/
 db/*.sqlite3
 .idea/
 client_secret.json
+*.iml
 
 public/assets/

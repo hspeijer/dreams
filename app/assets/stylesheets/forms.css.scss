@@ -1,11 +1,12 @@
 %button {
   @extend %no_select;
   display: block;
-  padding: 13px 10px;
-  color: #fff;
-  border: none;
-  border-radius: 5px;
+  border: 2px solid $c-gray_dark;
+  background-color: $c-white !important;
+  padding-bottom: 10px;
+  color: $c-gray_dark;
   text-align: center;
+  border-radius: 0px !important;
   @extend %textOverflowEllipsis;
 }
 
@@ -38,7 +39,7 @@
 
 .submit_button {
   @extend %button;
-  color: $c-green;
+  color: $c-blue_green;
 
   &:active {
     background: darken($c-green, 10%);
@@ -50,11 +51,9 @@ textarea,
 button {
   font-size: 1rem;
   color: $c-gray_dark;
-  font-family: 'source-sans-Pro', sans-serif;
 }
 button {
   cursor: pointer;
-  color: $c-green;
   width: 140px;
 }
 
@@ -114,7 +113,7 @@ input[type=checkbox] {
   input[type=number],
   input[type=email],
   textarea {
-    border: 1px solid $c-pinky;
+    border: 1px solid $c-red;
     border-radius: 5px;
   }
 }

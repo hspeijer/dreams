@@ -23,7 +23,6 @@
 .header-top-menu {
   display: inline-block;
   font-size: 52px;
-  font-family: 'Dosis', sans-serif;
   weight: bold;
   background: none !important;
 }
@@ -40,16 +39,14 @@
   }
 
   a {
-    color: white;
+    color: $c-menu-gray;
     text-decoration: none;
-    background: rgba(235, 20, 120, 0.62);
     padding: 3px 8px;
     margin: 0 3px;
 
     &:hover {
-        color: $c-pinky !important;
+        color: $c-blue_green !important;
         background: rgba(0, 0, 0, 0.7) !important;
-        border-radius: 4px;
       }
   }
 
@@ -71,7 +68,6 @@
 .header-nav {
   display: inline-block;
   margin-bottom: 10px;
-  font-family: 'Dosis', sans-serif;
   display: -webkit-flex; /* Safari */
   -webkit-justify-content: space-around; /* Safari 6.1+ */
   display: flex;

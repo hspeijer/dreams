@@ -5,14 +5,12 @@ a:hover {
 .main_content {
   @extend %holder;
   padding: 20px 2px;
-  color: rgb(0,0,0);
   width: 100%;
   margin-bottom: 20px;
 }
 
 body {
   background: white;
-  color: rgb(215,230,244)
 }
 
 .notice {
