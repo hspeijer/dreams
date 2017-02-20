@@ -241,7 +241,7 @@ address {
 }
 
 .label-success {
-  background-color: $c-pinky;
+  background-color: $c-blue_green;
 }
 
 .label-info {
@@ -251,6 +251,7 @@ address {
 
 .btn-success {
   border: 2px solid $c-gray_dark;
+  color: $c-gray_dark !important;
   background-color: $c-white !important;
   padding-bottom: 10px;
 

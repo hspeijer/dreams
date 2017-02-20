@@ -9,12 +9,12 @@ defaults: &defaults
   nature: false
   moop: false
   plan: false
-  cocreation: true
+  cocreation: false
   neighbors: true
   recycling: false
   budgetplan: true
   seeking_members: true
-  granting: true
+  granting: false
   # Only people with "Ticket records of phone and email can register"
   user_authentication_codes: false
   user_authentication_vs_tixwise: true

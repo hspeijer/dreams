@@ -36,13 +36,13 @@
     .name {
       font-size: 16px;
       font-weight: normal;
-      color: $c-pinky;
+      color: $c-blue_green;
       margin: 0.5em 0.5em;
       }
   }
 
   .panel-info > .panel-heading {
-    background-color: $c-pinky;
+    background-color: $c-blue_green;
     color: white;
   }
 
@@ -68,7 +68,7 @@ $main-image-height: 550px;
   width: 100%;
   height: $main-image-height;
 
-  background-color: $c-pinky;
+  background-color: $c-blue_green;
 }
 
 .join-dream-button {
@@ -215,7 +215,7 @@ $main-image-height: 550px;
 
   a {
     text-decoration: underline;
-    color: $c_pinky;
+    color: $c-blue_green;
   }
 }
 

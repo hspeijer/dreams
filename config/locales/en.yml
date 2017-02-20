@@ -12,8 +12,8 @@ en:
     breathe life into our mad creations. We share resources to make dreams happen.
   top_headline_html: Art Jump 2017
   top_headline_resources: Resources >
-  top_headline_dreams: Dreams
-  top_headline_old_dreams: 2015 Dreams
+  top_headline_dreams: Projects
+  top_headline_old_dreams: Old Projects
   top_headline_faq: Information
   creations_menu: Dreams
   register_creation_menu: Submit Art
@@ -53,14 +53,14 @@ en:
   sort_by: Sort by
   form_basics_headline: Art Jump Grant Proposal
   form_summary: Summary
-  form_dream_name: Dream name
+  form_dream_name: Project name
   form_dream_name_en_label: Dream name in English (required)
-  form_dream_name_label: Dream name (required) 
-  form_dream_name_guidetext_html: What's your dream prototype called?
+  form_dream_name_label: Project name (required)
+  form_dream_name_guidetext_html: What's your project called?
   form_subtitle_en_label: Summarize your dream in English (required)
-  form_subtitle_label: Summarize your dream (required)
-  form_subtitle_guidetext_html: Brief summary of the dream prototype you are applying
-    for the front page of the dream's site. Keep it short, up to 256 characters.
+  form_subtitle_label: Project summary (required)
+  form_subtitle_guidetext_html: Brief summary of the project you are applying
+    for the front page of the project's site. Keep it short, up to 256 characters.
   form_creator_name_label: Group / Artist name
   form_creator_name_guidetext_html: ''
   create_dream_loading_text: Making room for your dream in our magical cloud...
@@ -68,13 +68,13 @@ en:
   form_dream_visability: Public for everyone to see?
   form_dream_visability_yes: Yes, Show it to the world
   form_dream_visability_no: No, Hide it for now
-  form_dream_visability_guidetext_html: Public dreams will be shown on the main page.
-    Private dreams will be shown only with a direct link
+  form_dream_visability_guidetext_html: Public projects will be shown on the main page.
+    Private projects will be shown only with a direct link
   form_contact_phone_label: Your phone number (won't be published)
   form_contact_phone_guidetext_html: Emergency contact
   form_about_the_artist_label: About the group/Artist
   form_dream_website_label: Web Site / Facebook page
-  form_dream_website_short: The dream website
+  form_dream_website_short: The project website
   
   form_dream_point_of_contact_email: Your contact person from Art Department
 
@@ -105,7 +105,7 @@ en:
   form_project_management_dream_pre_construction_site_guidetext_html: Where will you build your art installation, prior to arriving at the Playa?
   form_description_label: Full description of the concept
   form_description_guidetext_html: Give a full physical and conceptual description,
-    including interactivity how it will fit into Midburn community. You've got 4096
+    including interactivity how it will fit into Burner community. You've got 4096
     characters. Make them count.
   form_electricity_label: Do you need electricity from the grid? How much in Watts?
   form_electricity_guidetext_html: If yes, how much approximately are we talking in
@@ -133,7 +133,7 @@ en:
   form_cocreation_label: How can other burners co-create with you?
   form_cocreation_guidetext_html: How can someone be a part of this project?
   form_neighbors_label: Who would your perfect neighbors be?
-  form_neighbors_guidetext_html: What kind of midburners would you like as neighbors?
+  form_neighbors_guidetext_html: What kind of burners would you like as neighbors?
     Quiet, Deep playa, Near camps, Near sounds camps, Far away from sound camps
 
   form_artgrants_headline: Art grant information
@@ -170,7 +170,7 @@ en:
   form_spec_electricity_details_guidetext_html: What objects will require electricity
     in your art installation? Electric systems, computers, lighting, sound, triangle
     toasters etc.
-  form_dream_prop_interactivity_audience_participation_guidetext_html: At Midburn,
+  form_dream_prop_interactivity_audience_participation_guidetext_html: At Burn events,
               the artists are encouraged to break the barriers between the art work and its
               viewers. Please share with us your vision regarding the level in which one could
               interact with the installation or influence it - climbing, touching, operating,
@@ -189,8 +189,8 @@ en:
   form_dream_prop_community_context_desc_guidetext_html: Cooperation during costruction,
               shared events with other communities etc.
   form_dream_prop_theme_annual_desc_guidetext_html: Does the art installation draw its inspiration from the annual "Lucid Dream" theme or supports the ten Burning Man principles?
-  form_dream_scholarship_head: Midburn Art Fund scholarship application
-  form_dream_scholarship_head_desc: 'If you wish to receive a stipend from Midburn''s
+  form_dream_scholarship_head: Art Fund scholarship application
+  form_dream_scholarship_head_desc: 'If you wish to receive a stipend from the
     Art Fund, please fill in the following fields. This information will be added
     to any other information entered so far, and will be forwarded to the Art Fund
     for evaluation. Please take into consideration that detail and depth are key to
@@ -307,7 +307,7 @@ en:
     less (this description will be the one to appear on the event's program booklet)
   form_program_activity: A special activity, show, ceremony or anything you may have
     in line regarding the art installation during the event to which you may want
-    to invite the inhabitatns of Midburn
+    to invite burners
   form_program_activity_desc: Please specidy the day, time, name of activity and wether
     it is a single activity or a reoccuring one
   form_congratulations_html: Congrads. You've reached your "lowest". From here you can only fly up.
@@ -380,13 +380,9 @@ en:
   how_can_i_help_title: How can I help?
   how_can_i_help_title_desc_html: In this page you will find all our dreamers current needs. Find a dream you'd like to join, and click 
   how_can_i_help_page_description: In this page you will find all our dreamers current needs. Find a dream you'd like to join, and click add my name"
-  created_new_dream: Yeah! You've created a dream. You can add info to your dream
-    now or save and continue adding info in the future
+  created_new_dream: Thank you for your submission! You can add info to your submission now or save and continue adding info in the future
   what_is_this_title: What is this?
   what_is_this_text_html: Congratulations! You've stumbled upon something special.
-    Midburn is a participatory festival that takes place in Jerucham lake in Israel
-    on Dec 29-31. It's a fully participatory event where everything is created by
-    the participants themselves, without any spectators.
   creation_info_headline: Details
   next_random_dream: Next random dream
   contact_name: Contact Name
@@ -405,7 +401,7 @@ en:
   images_headline: Dream images
   upload_headline: Upload Image
   upload_guidetext_html: Images must be smaller than 8 mb and be in jpg, png or gif
-    format. To make your Dream look really awesome, make sure your images are in landscape
+    format. To make your project look really awesome, make sure your images are in landscape
     format and larger than 1500x800 pixels.
   upload_button: Upload Image
   remove_image: Remove Image
@@ -605,7 +601,7 @@ en:
         dreamprop_interactivity_is_fire_event: Burning of the installation
         dreamprop_interactivity_fire_event_desc: 'Details of burning '
         dreamprop_community_is_installation_present_for_event: The installation was
-          made expecially for Midburn
+          made expecially for burn events
         dreamprop_community_is_installation_present_for_public: The installation is
           planned for public space
         dreamprop_community_is_context: Communal connectivity
@@ -723,11 +719,11 @@ en:
           dreamprop_community_is_installation_present_for_public: Are you planning
             to exhibit your work in any public place after the event?
           dreamprop_community_is_context: Do you have connections to the community,
-            except for Midburn, before or after the event?
+            except for Artjump, before or after the event?
           dreamprop_community_is_interested_in_publicity: In case there will be a
             chance of exhibiting your work in public/ at a festival/ or at another
-            Midburn event, will you be interested in doing so?
-          dreamprop_theme_is_annual: Is your project supporting the Midburn's  theme
+            Burner event, will you be interested in doing so?
+          dreamprop_theme_is_annual: Is your project supporting the theme
             of the year?
           spec_is_electricity: Will your installation need electricity?
           spec_electricity_is_daytime: Will it need electricity at day time?
