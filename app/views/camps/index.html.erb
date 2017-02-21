@@ -7,6 +7,7 @@
   <meta property="og:image" content="<%= ENV['APP_URL'] %>assets/coverphoto.png" />
 <% end %>
 
+
 <div class="top_message" dir=<%=t :html_direction %>>
   <div class="panel panel-default">
     <div class="panel-heading">
@@ -17,6 +18,12 @@
       <% end %>
     </div>
     <div class="panel-body">
+        <div class="row">
+            <div class="col-md-8 col-md-offset-4">
+                <iframe src="https://player.vimeo.com/video/204656443" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+            </div>
+        </div>
+
       <div class="col-md-8">
         <% if user_signed_in? %>
           <%=t :welcome_user_text_html %>

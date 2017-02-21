@@ -39,7 +39,10 @@
     <%= t("form_creator_name_guidetext_html") %>
     <br>
   </div>
-  <div>
+    <% if Rails.configuration.x.firestarter_settings["artjump"] %>
+        <%= render 'artjump_fields', form: form %>
+    <% end %>
+  <br/><br/>
 
   <div id="project_manager ">
     <div>

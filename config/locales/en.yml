@@ -28,6 +28,7 @@ en:
     the dreams platform possible (Refresh the page, Swipe to shuffle, Or use the arrow
     keys)
   welcome_guest_title: Welcome to ArtJump 2017
+  welcome_user_title: Welcome to ArtJump 2017
   welcome_guest_text_html: You’ve just entered a place of possibilities.
     The ArtJump is a project with which we celebrate and stimulate art and the European exchange of art,
     related to the Ten Principles of Burning Man. By providing transport grants to -existing- Burn-related art,
@@ -363,6 +364,17 @@ en:
   form_safetybag_other_comments_guidetext_html: Do you have anything else to say?
   form_safetybag_remember_sketch: This is also the place to upload any sketch you may have
   form_budgetplan_label: Budget overview
+  form_artjump_long_description: Write a 250-word description of your art.
+  form_artjump_participatory: Please explain how your art is participatory (based on the criteria above) in 250 words or less.
+  form_artjump_participated: Please tell us which events you have already participated in and how.
+  form_artjump_story: Please tell us a story about your art in 250-words or less.
+  form_artjump_transportation: Please give us a detailed breakdown transportation logistics and costs.  We want to make sure you really have thought this through.
+  form_artjump_whatelse: Anything else we should know?
+  form_artjump_events: "Which of the following events do you plan on attending? Please note, you must obtain your own ticket!"
+  form_artjump_events_other: "Other: please tell us what we missed"
+  form_artjump_bring_art: Would you be willing to participate your art/performance at the ArtJump Gathering in Amsterdam on April 1?
+  form_artjump_bring_art_guidebook: Showing off some awesome artworks at the Art Jump Gathering  will show the public what burner artists can make! If you are able to bring the artwork to the Art Jump please keep in mind that we cannot grant any logistical costs.
+  form_artjump_auction: In order to gather funds to spread our Burn Art love through Europe an online auction has been set-up. Would you or someone you know want to donate art for this auction?
   create_dream: Create Proposal!
   update_dream: Update Proposal!
   edit_dream: Edit Dream
@@ -428,7 +440,7 @@ en:
   delete_are_you_sure: Are you sure?
   are_you_sure: Are you sure?
   your_space: Your personal space
-  your_dream: Your dream
+  your_dream: Your project
   youve_donated: You've donated
   coins_name: Hearts
   dreams_you_help_make: Dreams you made happen
@@ -470,7 +482,7 @@ en:
   join_dream: Sweet! You just sent your email adress to the creator.
   join_errors_login: You need to be logged in to add your email to the list.
   join_already_sent: Nice! You've already sent your email to the creator.
-  yes_text: Yesss
+  yes_text: Yes.
   no_text: Nope
   or_text: Or
   versionate:

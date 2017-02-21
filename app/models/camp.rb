@@ -122,6 +122,18 @@ class Camp < ActiveRecord::Base
     where(is_public: flag)
   }
 
+  def is_artjump
+    return true
+  end
+
+  def is_auction
+    return true
+  end
+
+  scope :is_artjump, lambda { |flag|
+     true
+   }
+
   scope :is_cocreation, lambda { |flag|
     where.not(camps: { cocreation: nil }).where.not(camps: { cocreation: '' })
   }
