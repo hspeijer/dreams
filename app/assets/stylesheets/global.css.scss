@@ -252,6 +252,15 @@ address {
   font-weight: 700;
 }
 
+.bullet-list {
+  list-style-type: circle;
+}
+
+.bullet-list li {
+  list-style: circle;
+  display: list-item;
+  margin-left: 40px;
+}
 
 .btn-success {
   border: 2px solid $c-gray_dark;
