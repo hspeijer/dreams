@@ -15,22 +15,14 @@
 
 // What happens to the header when in dream page
 .dream-site-header {
-	padding: 0 !important;
 	height: 155px !important;
 
-	.top_menu {
-		padding: 0 10px;
-	}
-
-	.header-nav {
-		padding: 10px 0;
-	}
-
 	.logophoto {
+      padding-top: 30px;
 		background-repeat: no-repeat;
-		background-size: 200px 60px;
-		width: 200px;
-		height: 60px;
+		background-size: 120px 120px;
+		width: 120px;
+		height: 120px;
 		margin: 10px 0 0 0;
 	}
 }

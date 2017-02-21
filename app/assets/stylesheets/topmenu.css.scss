@@ -10,14 +10,14 @@
 
 .logophoto {
   @extend %holder;
-  padding: 10px;
+  padding-top: 40px;
   margin: 10px 0px;
   color: rgb(0, 213, 255);
-  width: 274px;
-  height: 82px;
+  width: 200px;
+  height: 200px;
   max-width: none;
   background-repeat: no-repeat;
-  background-size: 274px 82px;
+  background-size: 200px 200px;
 }
 
 .header-top-menu {
@@ -46,7 +46,7 @@
 
     &:hover {
         color: $c-blue_green !important;
-        background: rgba(0, 0, 0, 0.7) !important;
+//        background: rgba(0, 0, 0, 0.7) !important;
       }
   }
 

@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170122213524) do
+ActiveRecord::Schema.define(version: 20170221140000) do
 
   create_table "active_admin_comments", force: :cascade do |t|
     t.string   "namespace",     :index=>{:name=>"index_active_admin_comments_on_namespace"}
@@ -150,6 +150,16 @@ ActiveRecord::Schema.define(version: 20170122213524) do
     t.string   "en_name",                                                  :limit=>64
     t.string   "en_subtitle",                                              :limit=>255
     t.string   "dream_point_of_contact_email",                             :limit=>64
+    t.string   "artjump_longdescription",                                  :limit=>4096
+    t.string   "artjump_participatory",                                    :limit=>4096
+    t.string   "artjump_participated",                                     :limit=>4096
+    t.string   "artjump_story",                                            :limit=>4096
+    t.string   "artjump_transportation",                                   :limit=>4096
+    t.string   "artjump_whatelse",                                         :limit=>4096
+    t.string   "artjump_events",                                           :limit=>1024
+    t.string   "artjump_events_other",                                     :limit=>256
+    t.boolean  "artjump_bring_art",                                        :default=>false, :null=>false
+    t.boolean  "artjump_auction",                                          :default=>false, :null=>false
   end
 
   create_table "grants", force: :cascade do |t|

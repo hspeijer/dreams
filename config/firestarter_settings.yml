@@ -2,18 +2,18 @@ defaults: &defaults
   additional_info: true
   contact_phone: true
   description: true
-  electricity: true
-  light: true
-  fire: true
-  noise: true
+  electricity: false
+  light: false
+  fire: false
+  noise: false
   nature: false
   moop: false
   plan: false
   cocreation: false
-  neighbors: true
+  neighbors: false
   recycling: false
   budgetplan: true
-  seeking_members: true
+  seeking_members: false
   granting: false
   # Only people with "Ticket records of phone and email can register"
   user_authentication_codes: false
@@ -24,8 +24,8 @@ defaults: &defaults
   footer_logo: false
   creation_sidebar_welcome: true
   safetybag: false
-  person_early_arrival:  <%= ENV['PERSON_EARLY_ARRIVAL'] or false %>
-  person_has_ticket:  <%= ENV['PERSON_HAS_TICKET'] or false %>
+  person_early_arrival:  false
+  person_has_ticket:  false
   multi_lang_support: <%= ENV['MULTI_LANG_SUPPORT'] or false %>
   disable_open_new_dream: <%= ENV['disable_open_new_dream'] or false %>
   disable_edit_safetybag: <%= ENV['disable_edit_safetybag'] or false %>

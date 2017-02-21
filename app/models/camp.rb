@@ -122,12 +122,9 @@ class Camp < ActiveRecord::Base
     where(is_public: flag)
   }
 
-  def is_artjump
-    return true
-  end
-
-  def is_auction
-    return true
+  def events
+    return {} if !artjump_events
+    Hash[eval(artjump_events).map { |v| ["event_" + v, true] }]
   end
 
   scope :is_artjump, lambda { |flag|

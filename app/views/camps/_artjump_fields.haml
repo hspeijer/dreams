@@ -1,130 +1,127 @@
 .col-md-7.col-xs-12{ style: 'float:' + I18n.t('lang_direction')}
-  .combo#name
-    = form.label t("form_dream_website_label")
-    %span.label.label-success
-    = form.text_field :website, :maxlength => 512, :class => "form-control"
-    %br
-
-.col-md-7.col-xs-12{ style: 'float:' + I18n.t('lang_direction')}
-  .combo#name
+  .combo#artjump_longdescription
     = form.label t("form_artjump_long_description")
     %span.label.label-success
-    = form.text_area :about_the_artist, :maxlength => 1024, :class => "form-control"
+    = form.text_area :artjump_longdescription, :maxlength => 4096, :class => "form-control"
     %br
 
 .col-md-7{ style: 'float:' + I18n.t('lang_direction')}
-  .combo#name
+  .combo#artjump_participatory
     = form.label t("form_artjump_participatory")
     %span.label.label-success
-    = form.text_area :about_the_artist, :maxlength => 1024, :class => "form-control"
+    = form.text_area :artjump_participatory, :maxlength => 4096, :class => "form-control"
     %br
 
 .col-md-7{ style: 'float:' + I18n.t('lang_direction')}
-  .combo#name
+  .combo#artjump_participated
     = form.label t("form_artjump_participated")
     %span.label.label-success
-    = form.text_area :about_the_artist, :maxlength => 1024, :class => "form-control"
+    = form.text_area :artjump_participated, :maxlength => 4096, :class => "form-control"
     %br
 
 .col-md-7{ style: 'float:' + I18n.t('lang_direction')}
-  .combo.form-label#name
+  .combo.form-label#artjump_story
+    = form.label t("form_artjump_story")
+    %span.label.label-success
+    = form.text_area :artjump_story, :maxlength => 4096, :class => "form-control"
+    %br
+
+.col-md-7{ style: 'float:' + I18n.t('lang_direction')}
+  .combo.form-label#artjump_transportation
     = t("form_artjump_transportation")
     %span.label.label-success
-    = form.text_area :about_the_artist, :maxlength => 1024, :class => "form-control"
+    = form.text_area :artjump_transportation, :maxlength => 4096, :class => "form-control"
     %br
 
 .col-md-7{ style: 'float:' + I18n.t('lang_direction')}
-  .combo#name
+  .combo#artjump_whatelse
     = form.label t("form_artjump_whatelse")
     %span.label.label-success
-    = form.text_area :about_the_artist, :maxlength => 1024, :class => "form-control"
+    = form.text_area :artjump_whatelse, :maxlength => 4096, :class => "form-control"
     %br
 
 .col-md-7{ style: 'float:' + I18n.t('lang_direction')}
-  .combo#name
+  .combo#artjump_events
     = form.label t("form_artjump_events")
     %span.label.label-success
-    = check_box_tag "BBB",  0, false
+    = check_box_tag "event_bbb",  0, camp.events["event_bbb"]
     = "BBB"
     %br
-    = check_box_tag "The Borderland",  0, false
+    = check_box_tag "event_bland",  0, camp.events["event_bbb"]
     = "The Borderland"
     %br
-    = check_box_tag "Burning Baer 2018",  0, false
+    = check_box_tag "event_bbaer",  0, camp.events["event_bbaer"]
     = "Burning Bär 2018"
     %br
-    = check_box_tag "Burning borg",  0, false
+    = check_box_tag "event_bborg",  0, camp.events["event_bborg"]
     = "Burning borg"
     %br
-    = check_box_tag "Crème Brulée weekend",  0, false
+    = check_box_tag "event_creme",  0, camp.events["event_creme" ]
     = "Crème Brulée weekend"
     %br
-    = check_box_tag "Dutch Decom",  0, false
+    = check_box_tag "event_ddecom",  0, camp.events["event_ddecom"]
     = "Dutch Decom"
     %br
-    = check_box_tag "Funky Safari",  0, false
+    = check_box_tag "event_fsafari",  0, camp.events["event_fsafari"]
     = "Funky Safari"
     %br
-    = check_box_tag "Helsinki Decompression",  0, false
+    = check_box_tag "event_hdcom",  0, camp.events["event_hdcom"]
     = "Helsinki Decompression"
     %br
-    = check_box_tag "Highburn",  0, false
+    = check_box_tag "event_highburn",  0, camp.events["event_highburn"]
     = "Highburn"
     %br
-    = check_box_tag "Latvian Burn",  0, false
+    = check_box_tag "event_latvian",  0, camp.events["event_latvian"]
     = "Latvian Burn"
     %br
-    = check_box_tag "Microburn UK",  0, false
+    = check_box_tag "event_micro",  0, camp.events["event_micro"]
     = "Microburn UK"
     %br
-    = check_box_tag "Midburnd",  0, false
+    = check_box_tag "event_midburn",  0, camp.events["event_midburn"]
     = "Midburn"
     %br
-    = check_box_tag "Monster",  0, false
+    = check_box_tag "event_monster",  0, camp.events["event_monster"]
     = "Monster"
     %br
-    = check_box_tag "Nest",  0, false
+    = check_box_tag "event_nest",  0, camp.events["event_nest"]
     = "Nest"
     %br
-    = check_box_tag "Nowhere",  0, false
+    = check_box_tag "event_nowhere",  0, camp.events["event_nowhere"]
     = "Nowhere"
     %br
-    = check_box_tag "Paris Burning Night",  0, false
+    = check_box_tag "event_paris",  0, camp.events["event_paris"]
     = "Paris Burning Night"
     %br
-    = check_box_tag "Shy 2018",  0, false
+    = check_box_tag "event_shy",  0, camp.events["event_shy"]
     = "Shy 2018"
     %br
-    = check_box_tag "Spark in the Dark",  0, false
+    = check_box_tag "event_spark",  0, camp.events["event_spark"]
     = "Spark in the Dark"
     %br
-    = check_box_tag "Urban Burn Stockholm - Bizarre Star Bazaar",  0, false
+    = check_box_tag "event_urban",  0, camp.events["event_urban"]
     = "Urban Burn Stockholm - Bizarre Star Bazaar"
     %br
-    = check_box_tag "Vienna Burningball 2018",  0, false
+    = check_box_tag "event_bbal",  0, camp.events["event_bbal"]
     = "Vienna Burningball 2018"
     %br
-    = check_box_tag "Urban Burn Stockholm - Bizarre Star Bazaar",  0, false
-    = "Urban Burn Stockholm - Bizarre Star Bazaar"
-    %br
-    = check_box_tag "Where the Sheep Sleep",  0, false
+    = check_box_tag "event_wtss",  0, camp.events["event_wtss"]
     = "Where the Sheep Sleep"
     %br
 
 .col-md-7{ style: 'float:' + I18n.t('lang_direction')}
-  .combo#name
+  .combo#artjump_events_other
     = form.label t("form_artjump_events_other")
     %span.label.label-success
-    = form.text_field :website, :maxlength => 512, :class => "form-control"
+    = form.text_field :artjump_events_other, :maxlength => 512, :class => "form-control"
     %br
 
 .col-md-7{ style: 'float:' + I18n.t('lang_direction')}
-  .combo#name
+  .combo#artjump_bring_art
     = form.label t("form_artjump_bring_art")
     %span.label.label-success
-    = form.radio_button :is_artjump, true
+    = form.radio_button :artjump_bring_art, true
     = form.label t("yes_text")
-    = form.radio_button :is_artjump, false
+    = form.radio_button :artjump_bring_art, false
     = form.label t("no_text")
     %br
     = t("form_artjump_bring_art_guidebook")
@@ -132,13 +129,13 @@
     %br
 
 .col-md-7{ style: 'float:' + I18n.t('lang_direction')}
-  .combo.form-label#name
+  .combo.form-label#artjump_auction
     = t("form_artjump_auction")
     %span.label.label-success
     %br
-    = form.radio_button :is_auction, true
+    = form.radio_button :artjump_auction, true
     = form.label t("yes_text")
-    = form.radio_button :is_auction, false
+    = form.radio_button :artjump_auction, false
     = form.label t("no_text")
     %br
     %br

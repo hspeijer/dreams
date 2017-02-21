@@ -39,8 +39,13 @@
     <%= t("form_creator_name_guidetext_html") %>
     <br>
   </div>
+    <div class="combo col-md-7 col-xs-12" id="website" style='float: <%= I18n.t(:lang_direction) %>'>
+        <%= form.label t("form_dream_website_label") %>
+        <%= form.text_field :website, :maxlength => 128, :class => "form-control" %>
+        <br>
+    </div>
     <% if Rails.configuration.x.firestarter_settings["artjump"] %>
-        <%= render 'artjump_fields', form: form %>
+        <%= render 'artjump_fields', form: form, camp: Camp.new %>
     <% end %>
   <br/><br/>
 

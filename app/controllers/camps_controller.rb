@@ -37,6 +37,7 @@ class CampsController < ApplicationController
     # Create camp without people then add them
     @camp = Camp.new(camp_params)
     @camp.creator = current_user
+    @camp.artjump_events = self.set_events(params)
 
     if create_camp
       flash[:notice] = t('created_new_dream')
@@ -114,7 +115,12 @@ class CampsController < ApplicationController
     flash[:notice] = "#{t:thanks_for_sending, grants: granted}"
   end
 
+  def set_events(params)
+     params.select{|k, v| k.index("event_") == 0}.map{|k,v| k.slice("event_".length, k.length)}
+  end
+
   def update
+    @camp.artjump_events = self.set_events(params)
     if (@camp.creator != current_user) and (!current_user.admin)
       flash[:alert] = "#{t:security_cant_edit_dreams_you_dont_own}"
       redirect_to camp_path(@camp) and return
