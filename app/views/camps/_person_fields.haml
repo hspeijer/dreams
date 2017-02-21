@@ -6,8 +6,6 @@
     = f.text_field :email, class: 'form-control'
     = f.label :phone_number
     = f.text_field :phone_number, class: 'form-control'
-    = f.label :background
-    = f.text_field :background, class: 'form-control'
     - if Rails.configuration.x.firestarter_settings["person_early_arrival"]
       .early-arrival
         = f.label :needs_early_arrival

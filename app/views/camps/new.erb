@@ -21,9 +21,8 @@
     </div>
   <% end %>
   <div class="combo col-md-7 col-xs-12" id="subtitle" style='float: <%= I18n.t(:lang_direction) %>'>
-    <%= form.label t("form_subtitle_label") %>
+    <div class="form-label"> <%= t("form_subtitle_label") %></div>
     <%= form.text_area :subtitle, :maxlength => 255, :class => "form-control", :rows => 4 %>
-    <%= t("form_subtitle_guidetext_html") %>
   </div>
   
   <% if Rails.configuration.x.firestarter_settings["multi_lang_support"] %>
@@ -34,13 +33,13 @@
     </div>
   <% end %>
   <div class="combo col-md-7 col-xs-12" id="contact_name" style='float: <%= I18n.t(:lang_direction) %>'>
-    <%= form.label t("form_creator_name_label") %>
-    <%= form.text_field :contact_name, :maxlength => 64, :class => "form-control" %>
+      <div class="form-label"> <%= t("form_creator_name_label") %></div>
+      <%= form.text_field :contact_name, :maxlength => 64, :class => "form-control" %>
     <%= t("form_creator_name_guidetext_html") %>
     <br>
   </div>
     <div class="combo col-md-7 col-xs-12" id="website" style='float: <%= I18n.t(:lang_direction) %>'>
-        <%= form.label t("form_dream_website_label") %>
+        <div class="form-label"> <%= t("form_dream_website_label") %></div>
         <%= form.text_field :website, :maxlength => 128, :class => "form-control" %>
         <br>
     </div>

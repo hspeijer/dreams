@@ -16,7 +16,7 @@ en:
   top_headline_old_dreams: Old Projects
   top_headline_faq: Information
   creations_menu: Dreams
-  register_creation_menu: Submit Art
+  register_creation_menu: Apply for a Grant
   login_menu: Log in
   register_menu: Register
   private_area: Private area >
@@ -52,16 +52,15 @@ en:
   hide_minimum_funded: Hide minimum funded
   hide_not_open_for_granting: Hide not open for funding
   sort_by: Sort by
-  form_basics_headline: Art Jump Grant Proposal
+  form_basics_headline: ArtJump Grant Proposal
   form_summary: Summary
   form_dream_name: Project name
   form_dream_name_en_label: Dream name in English (required)
   form_dream_name_label: Project name (required)
   form_dream_name_guidetext_html: What's your project called?
   form_subtitle_en_label: Summarize your dream in English (required)
-  form_subtitle_label: Project summary (required)
-  form_subtitle_guidetext_html: Brief summary of the project you are applying
-    for the front page of the project's site. Keep it short, up to 256 characters.
+  form_subtitle_label: Project summary (required). Please write a brief summary of your project. We will use this on the front page of the project's description. Keep it short, up to 256 characters.
+  form_subtitle_guidetext_html:
   form_creator_name_label: Group / Artist name
   form_creator_name_guidetext_html: ''
   create_dream_loading_text: Making room for your dream in our magical cloud...
@@ -365,17 +364,18 @@ en:
   form_safetybag_remember_sketch: This is also the place to upload any sketch you may have
   form_budgetplan_label: Budget overview
   form_artjump_long_description: Write a 250-word description of your art.
-  form_artjump_participatory: Please explain how your art is participatory (based on the criteria above) in 250 words or less.
-  form_artjump_participated: Please tell us which events you have already participated in and how.
+  form_artjump_participatory: Please explain how your art is participatory (<a href="/pages/faq-en">based on criteria</a>) in 250 words or less.
+  form_artjump_participated: Please tell us which events you have already participated in and how. Sell us the project in 250 words or less. Why are you the best person to receive this grant?
   form_artjump_story: Please tell us a story about your art in 250-words or less.
   form_artjump_transportation: Please give us a detailed breakdown transportation logistics and costs.  We want to make sure you really have thought this through.
   form_artjump_whatelse: Anything else we should know?
-  form_artjump_events: "Which of the following events do you plan on attending? Please note, you must obtain your own ticket!"
+  form_artjump_events: "Which of the following events do you plan on attending? Please note you must obtain your own ticket!"
   form_artjump_events_other: "Other: please tell us what we missed"
-  form_artjump_bring_art: Would you be willing to participate your art/performance at the ArtJump Gathering in Amsterdam on April 1?
-  form_artjump_bring_art_guidebook: Showing off some awesome artworks at the Art Jump Gathering  will show the public what burner artists can make! If you are able to bring the artwork to the Art Jump please keep in mind that we cannot grant any logistical costs.
+  form_artjump_bring_art: Would you be willing to share your art/performance at the ArtJump gathering in Amsterdam on April 1, 2017?
+  form_artjump_bring_art_guidebook: Showing off some awesome artworks at the ArtJump gathering will show the public what some of the innovative projects that are just waiting for place to shine! If you are able to bring the artwork to the Art Jump please keep in mind that we cannot cover these costs.
   form_artjump_auction: In order to gather funds to spread our Burn Art love through Europe an online auction has been set-up. Would you or someone you know want to donate art for this auction?
   form_artjump_jury: Information for grant evaluation
+  form_artjump_pictures: Please upload up to three pictures of your art once your proposal is created.
   create_dream: Create Proposal!
   update_dream: Update Proposal!
   edit_dream: Edit Proposal

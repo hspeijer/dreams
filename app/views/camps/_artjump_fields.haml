@@ -7,42 +7,48 @@
 
 .col-md-7{ style: 'float:' + I18n.t('lang_direction')}
   .combo#artjump_participatory
-    = form.label t("form_artjump_participatory")
+    .form-label
+      = raw t("form_artjump_participatory")
     %span.label.label-success
     = form.text_area :artjump_participatory, :maxlength => 4096, :class => "form-control"
     %br
 
 .col-md-7{ style: 'float:' + I18n.t('lang_direction')}
   .combo#artjump_participated
-    = form.label t("form_artjump_participated")
+    .form-label
+      = t("form_artjump_participated")
     %span.label.label-success
     = form.text_area :artjump_participated, :maxlength => 4096, :class => "form-control"
     %br
 
 .col-md-7{ style: 'float:' + I18n.t('lang_direction')}
-  .combo.form-label#artjump_story
-    = form.label t("form_artjump_story")
+  .combo#artjump_story
+    .form-label
+      = t("form_artjump_story")
     %span.label.label-success
     = form.text_area :artjump_story, :maxlength => 4096, :class => "form-control"
     %br
 
 .col-md-7{ style: 'float:' + I18n.t('lang_direction')}
-  .combo.form-label#artjump_transportation
-    = t("form_artjump_transportation")
+  .combo#artjump_transportation
+    .form-label
+      = t("form_artjump_transportation")
     %span.label.label-success
     = form.text_area :artjump_transportation, :maxlength => 4096, :class => "form-control"
     %br
 
 .col-md-7{ style: 'float:' + I18n.t('lang_direction')}
   .combo#artjump_whatelse
-    = form.label t("form_artjump_whatelse")
+    .form-label
+      = t("form_artjump_whatelse")
     %span.label.label-success
     = form.text_area :artjump_whatelse, :maxlength => 4096, :class => "form-control"
     %br
 
 .col-md-7{ style: 'float:' + I18n.t('lang_direction')}
   .combo#artjump_events
-    = form.label t("form_artjump_events")
+    .form-label
+      = t("form_artjump_events")
     %span.label.label-success
     = check_box_tag "event_bbb",  0, camp.events["event_bbb"]
     = "BBB"
@@ -117,7 +123,8 @@
 
 .col-md-7{ style: 'float:' + I18n.t('lang_direction')}
   .combo#artjump_bring_art
-    = form.label t("form_artjump_bring_art")
+    .form-label
+      = t("form_artjump_bring_art")
     %span.label.label-success
     = form.radio_button :artjump_bring_art, true
     = form.label t("yes_text")
@@ -129,8 +136,9 @@
     %br
 
 .col-md-7{ style: 'float:' + I18n.t('lang_direction')}
-  .combo.form-label#artjump_auction
-    = t("form_artjump_auction")
+  .combo#artjump_auction
+    .form-label
+      = t("form_artjump_auction")
     %span.label.label-success
     %br
     = form.radio_button :artjump_auction, true
