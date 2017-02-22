@@ -1,9 +1,14 @@
-.col-md-7.col-xs-12{ style: 'float:' + I18n.t('lang_direction')}
-  .combo#artjump_longdescription
-    = form.label t("form_artjump_long_description")
-    %span.label.label-success
-    = form.text_area :artjump_longdescription, :maxlength => 4096, :class => "form-control"
+.col-md-7{ style: 'float:' + I18n.t('lang_direction')}
+  .combo#description
+    - if Rails.configuration.x.firestarter_settings["description"]
+      = form.label t("form_description_label")
+      %span.label.label-success
+        =t("public")
+      = form.text_area :description, :maxlength => 4096, :class => "form-control"
+      = t("form_description_guidetext_html")
+      %br
     %br
+
 
 .col-md-7{ style: 'float:' + I18n.t('lang_direction')}
   .combo#artjump_participatory
@@ -126,10 +131,13 @@
     .form-label
       = t("form_artjump_bring_art")
     %span.label.label-success
-    = form.radio_button :artjump_bring_art, true
+    %br
+    = form.radio_button :artjump_bring_art, "yes"
     = form.label t("yes_text")
-    = form.radio_button :artjump_bring_art, false
+    = form.radio_button :artjump_bring_art, "no"
     = form.label t("no_text")
+    = form.radio_button :artjump_bring_art, "maybe"
+    = form.label t("maybe_contact")
     %br
     = t("form_artjump_bring_art_guidebook")
     %br

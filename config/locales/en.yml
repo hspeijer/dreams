@@ -375,7 +375,7 @@ en:
   form_artjump_bring_art_guidebook: Showing off some awesome artworks at the ArtJump gathering will show the public what some of the innovative projects that are just waiting for place to shine! If you are able to bring the artwork to the Art Jump please keep in mind that we cannot cover these costs.
   form_artjump_auction: In order to gather funds to spread our Burn Art love through Europe an online auction has been set-up. Would you or someone you know want to donate art for this auction?
   form_artjump_jury: Information for grant evaluation
-  form_artjump_pictures: Please upload up to three pictures of your art once your proposal is created.
+  form_artjump_pictures: Please upload up to three pictures of your art once your proposal is created! You can get to the 'Manage Images' functionality after clicking 'Done' on the next page.
   create_dream: Create Proposal!
   update_dream: Update Proposal!
   edit_dream: Edit Proposal
@@ -486,6 +486,7 @@ en:
   yes_text: Yes.
   no_text: Nope
   or_text: Or
+  maybe_contact: Maybe, please contact me
   versionate:
     latest_version: Latest version
     created_at: Created at

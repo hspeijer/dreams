@@ -117,15 +117,6 @@
       = form.text_field :website, :maxlength => 512, :class => "form-control"
 
   .col-md-7{ style: 'float:' + I18n.t('lang_direction')}
-    .combo#description
-      - if Rails.configuration.x.firestarter_settings["description"]
-        = form.label t("form_description_label")
-        %span.label.label-success
-          =t("public")
-        = form.text_area :description, :maxlength => 4096, :class => "form-control"
-        = t("form_description_guidetext_html")
-
-  .col-md-7{ style: 'float:' + I18n.t('lang_direction')}
     .combo#plan
       - if Rails.configuration.x.firestarter_settings["plan"]
         = form.label t("form_plan_label")
