@@ -2,13 +2,13 @@
 
 # Metaburn Dreams
 
-This is a platform to plan co-created events. It was originally created for Urban Burn Stockholm in 2016 and was then used for The Borderland in 2016 and For Midburnerot 2016 then Midburn 2017. It's being continuously and sporadically developed by a rag-tag team and will probably always be in beta. This version is set to be the mother of all versions.
+This is a platform to plan co-created events. It was originally created for Urban Burn Stockholm in 2016 and was then used for The Borderland in 2016 and For Midburnerot 2016 then Midburn 2017. It's being continuously and sporadically developed by a rag-tag team and will always be in beta. This version is set to be the mother of all versions.
 You can see it in action here: 
-* Midburn version: http://dreams.midburn.org/?lang=en
-* Midburnerot version:
-http://dreams.midburnerot.com/?lang=en
-* Borderland version:
-http://dreams.theborderland.se/
+* Midburn: http://dreams.midburn.org/?lang=en
+* Midburnerot: http://dreams.midburnerot.com/?lang=en
+* Borderland: http://dreams.theborderland.se/
+* Urban Burn Stockholm: http://artjump.burningman.nl/
+* Art Jump: http://artjump.burningman.nl/
 
 ## To get started
 
@@ -150,3 +150,8 @@ There is a feature that shows a notification to users - reminder of important da
 You can alter `lockdown.yml` file with your important dates and then change in `en.xml` `dont_miss_out->actions->action_name`
 It will be reminded to your users at the `Me` page. `View Dream` & `Edit Dream` page
 
+## Ability to Show/Edit Safety File Comments
+We've added the ability to show safety file comments for the dream-creator in the dream page. This field is editable by admin/guides only and it is visible to users on the show dream page - this could serve as a way to communicate with the artist outside of his email.
+
+You will need to set the following env var:
+* `SHOW_SAFETY_FILE_COMMENTS=true`
