@@ -160,6 +160,7 @@ ActiveRecord::Schema.define(version: 20170222150000) do
     t.string   "artjump_events_other",                                     :limit=>256
     t.string   "artjump_bring_art",                                        :limit=>32, :default=>"no", :null=>false
     t.boolean  "artjump_auction",                                          :default=>false, :null=>false
+    t.string   "safety_file_comments",                                     :limit=>4096
   end
 
   create_table "grants", force: :cascade do |t|
