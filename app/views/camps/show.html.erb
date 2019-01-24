@@ -132,14 +132,22 @@
       <% end %>
 
     <!-- Creation text content -->
-        <div class="camp-description">
-            <b><%=t :form_summary %></b>
-            <% @subtitle = (Rails.configuration.x.firestarter_settings['multi_lang_support'] and @camp.en_subtitle.present? and I18n.locale.to_s == 'en')? @camp.en_subtitle : @camp.subtitle %>
+    <div class="camp-description">
+        <b><%=t :form_rc_motivation %></b>
+        <% @subtitle = (Rails.configuration.x.firestarter_settings['multi_lang_support'] and @camp.en_subtitle.present? and I18n.locale.to_s == 'en')? @camp.rc_motivation : @camp.rc_motivation %>
 
-            <%= simple_format(@subtitle, class: "auto-#{@detector.direction(@subtitle)}" ) %>
-        </div>
+        <%= simple_format(@subtitle, class: "auto-#{@detector.direction(@subtitle)}" ) %>
+    </div>
 
-        <% if Rails.configuration.x.firestarter_settings["description"] and @camp.description.present? %>
+    <div class="camp-description">
+      <b><%=t :form_rc_addedvalue %></b>
+      <% @subtitle = (Rails.configuration.x.firestarter_settings['multi_lang_support'] and @camp.en_subtitle.present? and I18n.locale.to_s == 'en')? @camp.rc_addedvalue : @camp.rc_addedvalue %>
+
+      <%= simple_format(@subtitle, class: "auto-#{@detector.direction(@subtitle)}" ) %>
+    </div>
+
+
+    <% if Rails.configuration.x.firestarter_settings["description"] and @camp.description.present? %>
             <div class="camp-description">
                 <b><%=t :form_description_label %></b>
               <%= simple_format(@camp.description, class: "auto-#{@detector.direction(@camp.description)}" ) %>
