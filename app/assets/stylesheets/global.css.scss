@@ -347,3 +347,7 @@ address {
 .modal.in .modal-dialog {
   transform: translate(0, 0);
 }
+
+.info > ol> li {
+  display: list-item;
+}
