@@ -23,7 +23,8 @@
 <% end %>
 
 <% if current_user && (@camp.creator == current_user or current_user.admin or current_user.guide)%>
-	<%= render 'form' %>
+    <%= simple_form_for @camp, :html => {:dir => I18n.t(:html_direction), id: 'camp-form'} do |form| %>
+	<%= render 'rc_fields', form: form, camp:@camp %>
 
     <div id="footer-bar" dir=<%=t :html_direction %> style=<%= "text-align:" + I18n.t('reverse_direction')%>>
     <%if current_user.admin or current_user.guide %>
@@ -43,6 +44,7 @@
       <% end %>
 
     </div>
+    <% end %>
 <% else %>
     <p class="alert">Only the original creator can edit this page.</p>
 <% end %>

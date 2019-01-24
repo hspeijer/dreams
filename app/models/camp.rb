@@ -22,10 +22,13 @@ class Camp < ActiveRecord::Base
 
   acts_as_taggable
 
-  validates :creator, presence: true
-  validates :name, presence: true
-  validates :subtitle, presence: true
-  validates :contact_name, presence: true
+  validates :rc_motivation, presence: true
+  validates :rc_addedvalue, presence: true
+  validates :rc_events, presence: true
+  validates :rc_agree_expectations, presence: true
+  validates :rc_agree_position, presence: true
+
+
   validates :minbudget, :numericality => { :greater_than_or_equal_to => 0 }, allow_blank: true
   validates :minbudget_realcurrency, :numericality => { :greater_than_or_equal_to => 0 }, allow_blank: true
   validates :maxbudget, :numericality => { :greater_than_or_equal_to => 0 }, allow_blank: true

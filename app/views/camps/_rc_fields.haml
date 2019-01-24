@@ -1,0 +1,85 @@
+%br
+%br
+
+.col-md-7{ style: 'float:' + I18n.t('lang_direction')}
+  .combo#rc_playaname
+    .form-label
+      = raw t("form_rc_playaname")
+    %span.label.label-success
+    = form.text_field :rc_playaname, :maxlength => 64, :class => "form-control"
+    %br
+
+.col-md-7{ style: 'float:' + I18n.t('lang_direction')}
+  .combo#contact_phone
+    .form-label
+      = raw t("form_rc_phone")
+    %span.label.label-success
+    = form.text_field :contact_phone, :maxlength => 64, :class => "form-control"
+    %br
+
+.col-md-7{ style: 'float:' + I18n.t('lang_direction')}
+  .combo#contact_email
+    .form-label
+      = raw t("form_rc_email")
+    %span.label.label-success
+    = form.text_field :contact_email, :maxlength => 64, :class => "form-control"
+    %br
+
+.col-md-7{ style: 'float:' + I18n.t('lang_direction')}
+  .combo#rc_motivation
+    .form-label
+      = t("form_rc_motivation")
+    %span.label.label-success
+    = form.text_area :rc_motivation, rows:10, :maxlength => 4096, :class => "form-control"
+    %br
+
+.col-md-7{ style: 'float:' + I18n.t('lang_direction')}
+  .combo#rc_addedvalue
+    .form-label
+      = t("form_rc_addedvalue")
+    %span.label.label-success
+    = form.text_area :rc_addedvalue, rows:10, :maxlength => 4096, :class => "form-control"
+    %br
+
+.col-md-7{ style: 'float:' + I18n.t('lang_direction')}
+  .combo#rc_events
+    .form-label
+      = t("form_rc_events")
+    %span.label.label-success
+    = form.text_area :rc_events, rows:10, :maxlength => 4096, :class => "form-control"
+    %br
+
+.col-md-7{ style: 'float:' + I18n.t('lang_direction')}
+  .combo#rc_board
+    .form-label
+      = t("form_rc_board")
+    %span.label.label-success
+    %br
+    = form.radio_button :rc_board, true
+    = form.label t("yes_text")
+    = form.radio_button :rc_board, false
+    = form.label t("no_text")
+    %br
+    %br
+
+.col-md-7{ style: 'float:' + I18n.t('lang_direction')}
+  .combo#rc_agree_expectations
+    .form-label
+      = t("form_rc_agreeexpectations")
+    %span.label.label-success
+    %br
+    = form.check_box :rc_agree_expectations
+    = form.label t("yes_text")
+    %br
+    %br
+
+.col-md-7{ style: 'float:' + I18n.t('lang_direction')}
+  .combo#rc_agree_position
+    .form-label
+      = t("form_rc_agreeposition")
+    %span.label.label-success
+    %br
+    = form.check_box :rc_agree_position
+    = form.label t("yes_text")
+    %br
+    %br

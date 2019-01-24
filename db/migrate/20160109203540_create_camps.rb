@@ -2,10 +2,10 @@ class CreateCamps < ActiveRecord::Migration
   def change
     create_table :camps do |t|
       t.string   :name, :limit => 64, null: false
-      t.string   :subtitle, :limit => 255, null: false
+      t.string   :subtitle, :limit => 255
       t.string   :contact_email, :limit => 64, null: false
-      t.string   :contact_name, :limit => 64, null: false
-      t.string   :contact_phone, :limit => 64
+      t.string   :contact_name, :limit => 64
+      t.string   :contact_phone, :limit => 64, null: false
       t.text     :description, :limit => 4096
       t.text     :electricity, :limit => 255
       t.text     :light, :limit => 512
