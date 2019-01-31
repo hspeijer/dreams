@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20190124000000) do
+ActiveRecord::Schema.define(version: 20190131000000) do
 
   create_table "active_admin_comments", force: :cascade do |t|
     t.string   "namespace",     :index=>{:name=>"index_active_admin_comments_on_namespace"}
@@ -158,6 +158,7 @@ ActiveRecord::Schema.define(version: 20190124000000) do
     t.boolean  "rc_board"
     t.boolean  "rc_agree_expectations"
     t.boolean  "rc_agree_position"
+    t.string   "rc_affinity",                                              :limit=>64
   end
 
   create_table "grants", force: :cascade do |t|

@@ -7,16 +7,16 @@ en:
   html_direction: ltr
   reverse_direction: right
   lang_direction: left
-  browser_title_tag: Burning Man Netherlands Regional Contact 2019
+  browser_title_tag: Burning Man Netherlands Local Contact 2019
   main_sharing_description: Meta dreams is a place where we dream together and
     breathe life into our mad creations. We share resources to make dreams happen.
-  top_headline_html: Burning Man Netherlands Regional Contact 2019
+  top_headline_html: Burning Man Netherlands Local Contact 2019
   top_headline_resources: Resources >
   top_headline_dreams: Projects
   top_headline_old_dreams: Old Projects
   top_headline_faq: Information
   creations_menu: Dreams
-  register_creation_menu: Apply for RC
+  register_creation_menu: Apply for LC
   login_menu: Log in
   register_menu: Register
   private_area: Private area >
@@ -28,8 +28,8 @@ en:
     the Middle east to Midburnerot, Midburn and is now part of Metaburn<br>Here are the humans who made
     the dreams platform possible (Refresh the page, Swipe to shuffle, Or use the arrow
     keys)
-  welcome_guest_title: Welcome to BMNL Regional Contact 2019
-  welcome_user_title: Welcome to BMNL Regional Contact 2019
+  welcome_guest_title: Welcome to BMNL Local Contact 2019
+  welcome_user_title: Welcome to BMNL Local Contact 2019
   welcome_guest_text_html: <div class="info"><p>Burning Man Netherlands is looking for enthusiastic community members to volunteer and become a Local Contact.</p><p>In our mission and ever-growing ambition to facilitate and expand the culture that finds its roots in the Burning Man Principles, Burning Man Netherlands is looking for eager community members to participate as a Local Contact (“LC”).</p><p>The role and purpose of a local contact have been determined as such </p><ol><li>Communicate and maintain a relationship with the Burning Man NL community.</li><li>Foster the Burning man NL community -- help it to grow and express itself, help spread Burning Man culture to the Netherlands. <li>Act as a liaison between BMNL Board and the community.</li><li>To introduce and stimulate projects and inspiring initiatives that fit with the program areas (Art, Culture, Civic Involvement and/or education.</li><li>Propose projects and initiative for funding</li><li>Introduce new LCs, community- and/or event- and project leads within the NL community.</li></ol><p>If you would like to be considered to become a Local Contact, please read the full information on this position <a href="/pages/faq-en">here</a> and apply using <a href="/dereams/new">this form</a>. If you have any questions, please reach out to us via this email address Comms@BurningMan.nl</p></div>
   welcome_user_text_html: <div class="info"><p>Burning Man Netherlands is looking for enthusiastic community members to volunteer and become a Local Contact.</p><p>In our mission and ever-growing ambition to facilitate and expand the culture that finds its roots in the Burning Man Principles, Burning Man Netherlands is looking for eager community members to participate as a Local Contact (“LC”).</p><p>The role and purpose of a local contact have been determined as such </p><ol><li>Communicate and maintain a relationship with the Burning Man NL community.</li><li>Foster the Burning man NL community -- help it to grow and express itself, help spread Burning Man culture to the Netherlands. <li>Act as a liaison between BMNL Board and the community.</li><li>To introduce and stimulate projects and inspiring initiatives that fit with the program areas (Art, Culture, Civic Involvement and/or education.</li><li>Propose projects and initiative for funding</li><li>Introduce new LCs, community- and/or event- and project leads within the NL community.</li></ol><p>If you would like to be considered to become a Local Contact, please read the full information on this position <a href="/pages/faq-en">here</a> and apply using <a href="/dereams/new">this form</a>. If you have any questions, please reach out to us via this email address Comms@BurningMan.nl</p></div>
   header_faq_link: Did you already read our FAQ page?
@@ -47,7 +47,7 @@ en:
   hide_minimum_funded: Hide minimum funded
   hide_not_open_for_granting: Hide not open for funding
   sort_by: Sort by
-  form_basics_headline: Regional Contact Application
+  form_basics_headline: Local Contact Application
   form_summary: Summary
   form_dream_name: Project name
   form_dream_name_en_label: Dream name in English (required)
@@ -366,12 +366,14 @@ en:
   form_rc_playaname: Playa name (optional)
   form_rc_phone: Phone number
   form_rc_email: Email address
-  form_rc_motivation: Motivation on why you want to become RC
+  form_rc_motivation: Motivation on why you want to become Local Contact
   form_rc_addedvalue:  What is going to be your added value for the (Dutch) Burner community?
   form_rc_events: What Burn events have you visited? Please supply name and year.
-  form_rc_agreeexpectations: Yes, I agree on the terms and expectations that are required for the position of Regional Contact
+  form_rc_agreeexpectations: Yes, I agree on the terms and expectations that are required for the position of Local Contact
   form_rc_board: Do you also want to be considered as Board member?
   form_rc_agreeposition: Yes, I am aware this is a position and not a title
+  form_rc_affinity: I have affinity with one of these program areas
+  form_artjump_pictures: Please upload some pictures after completing the form
   create_dream: Submit Application!
   update_dream: Update Proposal!
   edit_dream: Edit Proposal
