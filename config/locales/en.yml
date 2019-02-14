@@ -65,7 +65,7 @@ en:
   form_dream_visability_no: No, Hide it for now
   form_dream_visability_guidetext_html: Public projects will be shown on the main page.
     Private projects will be shown only with a direct link
-  form_contact_phone_label: Your phone number (won't be published)
+  form_contact_phone_label: Your phone number (will not be visible on the site)
   form_contact_phone_guidetext_html: Emergency contact
   form_about_the_artist_label: About the group/Artist
   form_dream_website_label: Web Site / Facebook page
@@ -364,8 +364,8 @@ en:
   form_safetybag_remember_sketch: This is also the place to upload any sketch you may have
   form_budgetplan_label: Budget overview
   form_rc_playaname: Playa name (optional)
-  form_rc_phone: Phone number
-  form_rc_email: Email address
+  form_rc_phone: Phone number (will not be visible on the site)
+  form_rc_email: Email address (will not be visible on the site)s
   form_rc_motivation: Motivation on why you want to become Local Contact
   form_rc_addedvalue:  What is going to be your added value for the (Dutch) Burner community?
   form_rc_events: What Burn events have you visited? Please supply name and year.
@@ -412,14 +412,14 @@ en:
   cocreator_application_guidetext: If you're interested in helping out with this dream,
     you can add your email to a list which only the dream creator can see.
   cocreators_list_guidetext: 'These people want to co-create with you:'
-  images_headline: Dream images
+  images_headline: Photos
   upload_headline: Upload Image
   upload_guidetext_html: Images must be smaller than 8 mb and be in jpg, png or gif
     format. To make your project look really awesome, make sure your images are in landscape
     format and larger than 1500x800 pixels.
   upload_button: Upload Image
   remove_image: Remove Image
-  back_to_dream: Back to dream
+  back_to_dream: Back to profile
   error_no_image_selected: No image selected
   fully_funded: Fully funded
   grants_recieved: Grants Received
@@ -442,7 +442,7 @@ en:
   delete_are_you_sure: Are you sure?
   are_you_sure: Are you sure?
   your_space: Your personal space
-  your_dream: Your project
+  your_dream: Profile
   youve_donated: You've donated
   coins_name: Hearts
   dreams_you_help_make: Dreams you made happen

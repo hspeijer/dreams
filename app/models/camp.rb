@@ -25,7 +25,6 @@ class Camp < ActiveRecord::Base
   validates :rc_motivation, presence: true
   validates :rc_addedvalue, presence: true
   validates :rc_events, presence: true
-  validates :rc_agree_expectations, presence: true
   validates :rc_agree_position, presence: true
 
 

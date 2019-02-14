@@ -54,12 +54,11 @@
     padding: 3px 8px;
     
     .dropdown-menu {
-      background: none;
-      color: white;
+      background-color: #000;
 
-      &:hover {
-        background: none;        
-      }
+      //&:hover {
+      //  background: none;
+      //}
     }
   }
 
