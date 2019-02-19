@@ -55,8 +55,8 @@
     .form-label
       = t("form_artjump_events")
     %span.label.label-success
-    = check_box_tag "event_wtss",  1, camp.events["event_wtss"]
-    = "Where the Sheep Sleep"
+    = check_box_tag "event_wtss",  0, camp.events["event_wtss"], checked: "checked"
+    = "Where the Sheep Sleep (Obligatory)"
     %br
     = check_box_tag "event_bbb",  0, camp.events["event_bbb"]
     = "BBB"
