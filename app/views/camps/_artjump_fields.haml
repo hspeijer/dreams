@@ -55,29 +55,26 @@
     .form-label
       = t("form_artjump_events")
     %span.label.label-success
+    = check_box_tag "event_wtss",  1, camp.events["event_wtss"]
+    = "Where the Sheep Sleep"
+    %br
     = check_box_tag "event_bbb",  0, camp.events["event_bbb"]
     = "BBB"
     %br
-    = check_box_tag "event_bland",  0, camp.events["event_bbb"]
+    = check_box_tag "event_bland",  0, camp.events["event_bland"]
     = "The Borderland"
     %br
     = check_box_tag "event_bbaer",  0, camp.events["event_bbaer"]
-    = "Burning Bär 2018"
+    = "Burning Bär 2019"
     %br
     = check_box_tag "event_bborg",  0, camp.events["event_bborg"]
-    = "Burning borg"
+    = "Burning Borg"
     %br
     = check_box_tag "event_creme",  0, camp.events["event_creme" ]
-    = "Crème Brulée weekend"
-    %br
-    = check_box_tag "event_ddecom",  0, camp.events["event_ddecom"]
-    = "Dutch Decom"
+    = "Crème Brulée"
     %br
     = check_box_tag "event_fsafari",  0, camp.events["event_fsafari"]
     = "Funky Safari"
-    %br
-    = check_box_tag "event_hdcom",  0, camp.events["event_hdcom"]
-    = "Helsinki Decompression"
     %br
     = check_box_tag "event_highburn",  0, camp.events["event_highburn"]
     = "Highburn"
@@ -91,11 +88,11 @@
     = check_box_tag "event_midburn",  0, camp.events["event_midburn"]
     = "Midburn"
     %br
-    = check_box_tag "event_monster",  0, camp.events["event_monster"]
-    = "Monster"
-    %br
     = check_box_tag "event_nest",  0, camp.events["event_nest"]
     = "Nest"
+    %br
+    = check_box_tag "event_kiez",  0, camp.events["event_kiez"]
+    = "Kiez Burn"
     %br
     = check_box_tag "event_nowhere",  0, camp.events["event_nowhere"]
     = "Nowhere"
@@ -104,7 +101,7 @@
     = "Paris Burning Night"
     %br
     = check_box_tag "event_shy",  0, camp.events["event_shy"]
-    = "Shy 2018"
+    = "Saft"
     %br
     = check_box_tag "event_spark",  0, camp.events["event_spark"]
     = "Spark in the Dark"
@@ -113,10 +110,7 @@
     = "Urban Burn Stockholm - Bizarre Star Bazaar"
     %br
     = check_box_tag "event_bbal",  0, camp.events["event_bbal"]
-    = "Vienna Burningball 2018"
-    %br
-    = check_box_tag "event_wtss",  0, camp.events["event_wtss"]
-    = "Where the Sheep Sleep"
+    = "Vienna Burningball 2019"
     %br
 
 .col-md-7{ style: 'float:' + I18n.t('lang_direction')}
@@ -126,33 +120,4 @@
     = form.text_field :artjump_events_other, :maxlength => 512, :class => "form-control"
     %br
 
-.col-md-7{ style: 'float:' + I18n.t('lang_direction')}
-  .combo#artjump_bring_art
-    .form-label
-      = t("form_artjump_bring_art")
-    %span.label.label-success
-    %br
-    = form.radio_button :artjump_bring_art, "yes"
-    = form.label t("yes_text")
-    = form.radio_button :artjump_bring_art, "no"
-    = form.label t("no_text")
-    = form.radio_button :artjump_bring_art, "maybe"
-    = form.label t("maybe_contact")
-    %br
-    = t("form_artjump_bring_art_guidebook")
-    %br
-    %br
-
-.col-md-7{ style: 'float:' + I18n.t('lang_direction')}
-  .combo#artjump_auction
-    .form-label
-      = t("form_artjump_auction")
-    %span.label.label-success
-    %br
-    = form.radio_button :artjump_auction, true
-    = form.label t("yes_text")
-    = form.radio_button :artjump_auction, false
-    = form.label t("no_text")
-    %br
-    %br
 
