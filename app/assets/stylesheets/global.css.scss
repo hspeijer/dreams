@@ -286,6 +286,10 @@ address {
   }
 }
 
+.winners {
+  padding: 4px;
+  max-height: 100px;
+}
 .btn-primary {
   color: $c-gray_dark !important;
   background-color: $c-white !important;
